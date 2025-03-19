@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.595b53db.css",
+    "main.js": "/static/js/main.fed811dc.js",
+    "static/js/453.b0cd7502.chunk.js": "/static/js/453.b0cd7502.chunk.js",
+    "static/media/ai.png": "/static/media/ai.cdcf308751fc657394c8.png",
+    "static/media/spacex.png": "/static/media/spacex.718f3b455f9918706651.png",
+    "static/media/Contact.jpg": "/static/media/Contact.2a2b7cc3955ed4fca6e5.jpg",
+    "static/media/logo-2.png": "/static/media/logo-2.a0e936df8b2283180ab3.png",
+    "static/media/Hotelcalifornia.jpg": "/static/media/Hotelcalifornia.a1b2e230d97c00441c76.jpg",
+    "static/media/abhinav.png": "/static/media/abhinav.55778b21bb7d09cc86c4.png",
+    "static/media/drawing.png": "/static/media/drawing.94b7b5eb9e1fe20fdd1e.png",
+    "static/media/skill1.jpg": "/static/media/skill1.0349fc6aad2503f9175a.jpg",
+    "static/media/chatbot.png": "/static/media/chatbot.bf76f8b2237924ff1a76.png",
+    "static/media/shubham.png": "/static/media/shubham.4ad7d39f7ea1fee3e476.png",
+    "static/media/eat_that_frog.jpg": "/static/media/eat_that_frog.813c8f47ac052b6d620c.jpg",
+    "static/media/blue.png": "/static/media/blue.9b293a4a6ef065903a8f.png",
+    "static/media/experience.jpg": "/static/media/experience.c2c4e14e8a92e3e1997c.jpg",
+    "static/media/netflix-sound.mp3": "/static/media/netflix-sound.a13a4aedfb5da5a27f04.mp3",
+    "static/media/yellow.png": "/static/media/yellow.2631c5cf63f02f6bbfbf.png",
+    "static/media/appointment.png": "/static/media/appointment.5faf7fceca05cd9517f8.png",
+    "static/media/chris.jpg": "/static/media/chris.c8b8e648ee695596bdd3.jpg",
+    "static/media/Project.jpg": "/static/media/Project.31b60ae32def06dc68ff.jpg",
+    "static/media/alchemist.jpg": "/static/media/alchemist.9c7b8d90f87afb9eb1f9.jpg",
+    "static/media/atomic_habits.jpg": "/static/media/atomic_habits.1e9739efe6a8eca8240a.jpg",
+    "static/media/guns-n-roses.webp": "/static/media/guns-n-roses.0fc43e1f941a88098915.webp",
+    "static/media/rich_dad_poor_dad.jpg": "/static/media/rich_dad_poor_dad.3e652088b5ec2c6f8709.jpg",
+    "static/media/ac-dc.jpg": "/static/media/ac-dc.44867f491e8e97894eff.jpg",
+    "index.html": "/index.html",
+    "main.595b53db.css.map": "/static/css/main.595b53db.css.map",
+    "main.fed811dc.js.map": "/static/js/main.fed811dc.js.map",
+    "453.b0cd7502.chunk.js.map": "/static/js/453.b0cd7502.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.595b53db.css",
+    "static/js/main.fed811dc.js"
+  ]
+}
