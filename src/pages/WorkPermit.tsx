@@ -1,17 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './WorkPermit.css';
-import { getWorkPermit } from '../queries/getWorkPermit';
 import { WorkPermit as IWorkPermit } from '../types';
 const WorkPermit: React.FC = () => {
 
   const [workPermitData, setWorkPermitData] = useState<IWorkPermit | null>(null);
-  useEffect(() => {
-    async function fetchWorkPermitData() {
-      const data = await getWorkPermit();
-      setWorkPermitData(data);
-    }
-    fetchWorkPermitData();
-  }, []);
+
 
   if (!workPermitData) return <div>Loading...</div>;
 

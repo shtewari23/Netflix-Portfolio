@@ -3,7 +3,6 @@ import './Certifications.css';
 import { FaExternalLinkAlt, FaUniversity } from 'react-icons/fa';
 import { SiUdemy, SiCoursera, SiIeee } from 'react-icons/si';
 import { Certification } from '../types';
-import { getCertifications } from '../queries/getCertifications';
 const iconData: { [key: string]: JSX.Element } = {
   'udemy': <SiUdemy />,
   'coursera': <SiCoursera />,
@@ -15,14 +14,7 @@ const Certifications: React.FC = () => {
 
   const [certifications, setCertifications] = useState<Certification[]>([]);
 
-  useEffect(() => { 
-    async function fetchCertifications() {
-      const data = await getCertifications();
-      setCertifications(data);
-    }
-
-    fetchCertifications();
-  }, []);
+ 
 
   if (certifications.length === 0) return <div>Loading...</div>;
 

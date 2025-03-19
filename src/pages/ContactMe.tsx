@@ -3,20 +3,12 @@ import './ContactMe.css';
 import profilePic from '../assets/images/shubham.png';
 import { FaEnvelope, FaPhoneAlt, FaCoffee, FaLinkedin } from 'react-icons/fa';
 import { ContactMe as IContactMe } from '../types';
-import { getContactMe } from '../queries/getContactMe';
 
 const ContactMe: React.FC = () => {
 
   const [userData, setUserData] = useState<IContactMe>()
 
-  useEffect(() => {
-    async function fetchUserData() {
-      const data = await getContactMe();
-      setUserData(data);
-    }
-
-    fetchUserData();
-  }, []);
+ 
 
   if (!userData) return <div>Loading...</div>;
 
