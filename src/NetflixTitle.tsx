@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './NetflixTitle.css';
 import netflixSound from './netflix-sound.mp3';
 import { useNavigate } from 'react-router-dom';
-import logoImage from './assets/images/logo-2.png'
+import logoImage from '../src/assets/images/logo-2.png'
 const NetflixTitle = () => {
   const [isClicked, setIsClicked] = useState(false);
   const navigate = useNavigate();
