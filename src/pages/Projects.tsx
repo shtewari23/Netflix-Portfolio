@@ -1,58 +1,61 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Projects.css';
-import { FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGitlab, FaGoogle, FaJava, FaJenkins, FaMicrosoft, FaPython, FaVuejs } from 'react-icons/fa';
-import { SiRubyonrails, SiPostgresql, SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiAwsamplify, SiFirebase, SiTerraform, SiArgo } from 'react-icons/si';
-import { GrDeploy, GrKubernetes } from "react-icons/gr";
-import drawing from '../assets/images/drawing.png'; // Adjust the path based on your directory structure
-import spacex from '../assets/images/spacex.png'; // Adjust the path based on your directory structure
-import appointment from '../assets/images/appointment.png'; // Adjust the path based on your directory structure
-import chatbot from '../assets/images/chatbot.png'; // Adjust the path based on your directory structure
-import ai from '../assets/images/ai.png'; // Adjust the path based on your directory structure
+
+import { 
+  FaReact, FaNodeJs, FaAws, FaDocker, FaGitlab, 
+  FaDatabase, FaJs, FaRegCalendarAlt 
+} from 'react-icons/fa';
+import { SiNextdotjs, SiTypescript, SiRedux, SiRedis, SiPostgresql } from 'react-icons/si';
+
+import drawing from '../assets/images/drawing.png';
+import spacex from '../assets/images/spacex.png';
+import appointment from '../assets/images/appointment.png';
+import chatbot from '../assets/images/chatbot.png';
+import ai from '../assets/images/ai.png';
 
 const techIcons: { [key: string]: JSX.Element } = {
-  "ReactJS": <FaReact />, "NodeJS": <FaNodeJs />, "AWS": <FaAws />, "PostgreSQL": <SiPostgresql />,
-  "MongoDB": <SiMongodb />, "Ruby On Rails": <SiRubyonrails />, "Material UI": <SiMaterialdesign />, "HTML5": <SiHtml5 />,
-  "CSS3": <SiCss3 />, "jQuery": <SiJquery />, "AWS-ECS": <SiAwsamplify />, 'Cognito': <FaAws />, 'Lambda': <FaAws />,
-  'ECS': <FaAws />, 'Jenkins': <FaJenkins />, 'Docker': <FaDocker />, 'GraphQL': <FaDatabase />, 'CI/CD': <FaGitlab />,
-  'GitLab': <FaGitlab />, 'GitHub': <FaGithub />, 'Heroku': <GrDeploy />, 'Netlify': <GrDeploy />, 'Firebase': <SiFirebase />,
-  'GCP': <FaGoogle />, 'Azure': <FaMicrosoft />, 'Kubernetes': <GrKubernetes />, 'Terraform': <SiTerraform />, 'ArgoCD': <SiArgo />,
-  'Java': <FaJava />, 'Spring Boot': <FaJava />, 'Python': <FaPython />, 'Node.js': <FaNodeJs />, 'Express.js': <FaNodeJs />,
-  'Hibernate': <FaJava />, 'Maven': <FaJava />, 'Gradle': <FaJava />, 'JUnit': <FaJava />, 'Mockito': <FaJava />,
-  'Jest': <FaReact />, 'React': <FaReact />, 'Angular': <FaAngular />, 'Vue.js': <FaVuejs />, 'Next.js': <FaReact />,
-  'Gatsby': <FaReact />, 'Nuxt.js': <FaVuejs />, 'Redux': <FaReact />, 'Vuex': <FaVuejs />, 'Tailwind CSS': <SiCss3 />,
-  'Bootstrap': <SiCss3 />, 'JQuery': <SiJquery />,
+  "React": <FaReact />, "Node.js": <FaNodeJs />, "AWS": <FaAws />, "Docker": <FaDocker />,
+  "GitLab": <FaGitlab />, "JavaScript": <FaJs />, "Next.js": <SiNextdotjs />,
+  "TypeScript": <SiTypescript />, "Redux": <SiRedux />, "Redis": <SiRedis />, 
+  "PostgreSQL": <SiPostgresql />, "Database": <FaDatabase />,
+  "Scheduler": <FaRegCalendarAlt />
 };
 
 const demoProjects = [
   {
     title: "Drawing Tool",
-    description: "It is a React-based application designed to provide users with an interactive canvas for creating and editing drawings.",
-    image: { url: drawing },
-    techUsed: "React, Node.js, AWS"
+    description: "A React-based drawing tool with an interactive canvas.",
+    image: drawing,
+    techUsed: ["Next.js", "Node.js", "AWS", "TypeScript" ,"Redux"],
+    url: "https://main--drawing-tools.netlify.app"
   },
   {
-    title: "Space Program demo ",
-    description: "Space Program demo site, displaying the capsules data with filter and pagination.",
-    image: { url: spacex },
-    techUsed: "React, Firebase, Docker"
+    title: "Space Program Demo",
+    description: "A SpaceX capsule data display with filtering & pagination.",
+    image: spacex,
+    techUsed: ["React", "JavaScript", "Docker" ,"Redux"],
+    url: "https://shubham-tewari-frontend-developer.vercel.app/"
   },
   {
-    title: "Appointment Schelduler ",
-    description: "It is designed to manage appointments efficiently. It allows users to create, edit,view schedules, and send reminders.",
-    image: { url: appointment },
-    techUsed: "React, Firebase, Docker"
+    title: "Appointment Scheduler",
+    description: "Manage and schedule appointments efficiently.",
+    image: appointment,
+    techUsed: ["React", "TypeScript", "Docker","Redux"],
+    url: "https://elated-edison-b7be1e.netlify.app/"
   },
   {
-    title: "Chat Bot Flow ",
-    description: "It is a React-based application designed to create and manage conversational flows for chatbots.",
-    image: { url: chatbot },
-    techUsed: "React, Firebase, Docker, Node"
+    title: "Chat Bot Flow",
+    description: "Create and manage chatbot conversation flows.",
+    image: chatbot,
+    techUsed: ["React", "Redis", "Docker", "Node.js"],
+    url:    "https://chatbot-flow-builder-git-main-shtewari23s-projects.vercel.app/",
   },
   {
-    title: "AI Demo ",
-    description: "A demo site for an AI company.Hands-on demos that illustrate the functionality of AI models and about the company.",
-    image: { url: ai },
-    techUsed: "Next, GitLab, Docker, NodeJS, Redux"
+    title: "AI Demo",
+    description: "AI model demos with interactive functionality.",
+    image: ai,
+    techUsed: ["Next.js", "GitLab", "Docker", "Node.js", "Redux"],
+    url: "https://marwin-one.vercel.app/"
   }
 ];
 
@@ -61,24 +64,27 @@ const Projects: React.FC = () => {
     <div className="projects-container">
       <div className="projects-grid">
         {demoProjects.map((project, index) => (
-          <div
+          <a
             key={index}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="project-card"
-            style={{ '--delay': `${index * 0.1}s` } as React.CSSProperties}
+            style={{ animationDelay: `${index * 0.1}s` }}
           >
-            <img src={project.image.url} alt={project.title} className="project-image" />
+            <img src={project.image} alt={project.title} className="project-image" />
             <div className="project-details">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="tech-used">
-                {project.techUsed.split(', ').map((tech, i) => (
+                {project.techUsed.map((tech, i) => (
                   <span key={i} className="tech-badge">
                     {techIcons[tech] || "🔧"} {tech}
                   </span>
                 ))}
               </div>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
