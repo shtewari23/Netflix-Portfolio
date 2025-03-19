@@ -61,8 +61,6 @@ npm install
 npm start
 ```
 
-5. **Visit the Local Server**: Open your browser and navigate to the local server URL.
-   ![alt text](image.png)
 
 ---
 
@@ -96,7 +94,7 @@ Your feedback is valuable and helps make this project better for everyone. Thank
 
 ## 📧 Contact Me
 
-- 📧 Email: [chintusamala96@gmail.com](mailto:shtewari23@gmail.com)
+- 📧 Email: [shtewari23@gmail.com](mailto:shtewari23@gmail.com)
 - 🔗 [LinkedIn](https://uk.linkedin.com/in/Shubham-Tewari-82431161)
 
 ---
