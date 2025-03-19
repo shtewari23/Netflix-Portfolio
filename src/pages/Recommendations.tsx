@@ -1,7 +1,7 @@
 import React from 'react';
 import './Recommendations.css';
-import chrisProfilePic from '../images/chris.jpg'; // Adjust as needed
-import abhinavProfilePic from '../images/abhinav.png'; // Adjust as needed
+import chrisProfilePic from '../assets/images/chris.jpg'; // Adjust as needed
+import abhinavProfilePic from '../assets/images/abhinav.png'; // Adjust as needed
 
 const Recommendations: React.FC = () => {
   return (

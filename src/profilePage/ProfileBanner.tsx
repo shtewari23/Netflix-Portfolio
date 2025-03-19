@@ -31,7 +31,7 @@ const ProfileBanner: React.FC = () => {
   return (
     <div className="profile-banner">
       <div className="banner-content">
-        <h1 className="banner-headline" id='headline'>Shubham Tewari</h1>
+        <h1 className="banner-headline" id='headline'>Shubham Tewari (Full Stack Developer)</h1>
         <p className="banner-description">
         I am an experienced web developer with a strong focus on solution-driven collaboration and a passion for building scalable, high-performance applications. Proficient in crafting consumer-centric websites and applications, I specialize in React, Next.js, JavaScript, TypeScript, Node.js, Go, MongoDB, and AWS, ensuring seamless user experiences across both desktop and mobile platforms.
 

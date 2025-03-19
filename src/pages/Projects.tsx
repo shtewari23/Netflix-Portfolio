@@ -3,11 +3,11 @@ import './Projects.css';
 import { FaReact, FaNodeJs, FaAws, FaDatabase, FaDocker, FaAngular, FaGithub, FaGitlab, FaGoogle, FaJava, FaJenkins, FaMicrosoft, FaPython, FaVuejs } from 'react-icons/fa';
 import { SiRubyonrails, SiPostgresql, SiMongodb, SiMaterialdesign, SiHtml5, SiCss3, SiJquery, SiAwsamplify, SiFirebase, SiTerraform, SiArgo } from 'react-icons/si';
 import { GrDeploy, GrKubernetes } from "react-icons/gr";
-import drawing from '../images/drawing.png'; // Adjust the path based on your directory structure
-import spacex from '../images/spacex.png'; // Adjust the path based on your directory structure
-import appointment from '../images/appointment.png'; // Adjust the path based on your directory structure
-import chatbot from '../images/chatbot.png'; // Adjust the path based on your directory structure
-import ai from '../images/ai.png'; // Adjust the path based on your directory structure
+import drawing from '../assets/images/drawing.png'; // Adjust the path based on your directory structure
+import spacex from '../assets/images/spacex.png'; // Adjust the path based on your directory structure
+import appointment from '../assets/images/appointment.png'; // Adjust the path based on your directory structure
+import chatbot from '../assets/images/chatbot.png'; // Adjust the path based on your directory structure
+import ai from '../assets/images/ai.png'; // Adjust the path based on your directory structure
 
 const techIcons: { [key: string]: JSX.Element } = {
   "ReactJS": <FaReact />, "NodeJS": <FaNodeJs />, "AWS": <FaAws />, "PostgreSQL": <SiPostgresql />,

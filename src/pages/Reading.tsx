@@ -2,12 +2,12 @@
 
 import React from 'react';
 import './Reading.css';
-import atomicHabits from '../images/atomic_habits.jpg';
-import richDadPoorDad from '../images/rich_dad_poor_dad.jpg';
-import alchemist from '../images/alchemist.jpg';
-import eatThatFrog from '../images/eat_that_frog.jpg';
-import vijayanikiAidhuMetlu from '../images/vijayaniki_aidu_metlu.jpg';
-import venneloAdapilla from '../images/vennelo_adapilla.jpeg';
+import atomicHabits from '../assets/images/atomic_habits.jpg';
+import richDadPoorDad from '../assets/images/rich_dad_poor_dad.jpg';
+import alchemist from '../assets/images/alchemist.jpg';
+import eatThatFrog from '../assets/images/eat_that_frog.jpg';
+import vijayanikiAidhuMetlu from '../assets/images/vijayaniki_aidu_metlu.jpg';
+import venneloAdapilla from '../assets/images/vennelo_adapilla.jpeg';
 
 const books = [
   {

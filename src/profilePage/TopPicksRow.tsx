@@ -2,11 +2,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './TopPicksRow.css';
 import { FaPassport, FaCode, FaBriefcase, FaCertificate, FaHandsHelping, FaProjectDiagram, FaEnvelope, FaMusic, FaBook } from 'react-icons/fa';
-import skill1 from '../images/skill1.jpg'; // Adjust the path based on your directory structure
-import experience from '../images/experience.jpg'; // Adjust the path based on your directory structure
-import project from '../images/Project.jpg'; // Adjust the path based on your directory structure
-import contact from '../images/Contact.jpg'; // Adjust the path based on your directory structure
-
+import skill1 from '../assets/images/skill1.jpg'; // Adjust the path based on your directory structure
+import experience from '../assets/images/experience.jpg'; // Adjust the path based on your directory structure
+import project from '../assets/images/Project.jpg'; // Adjust the path based on your directory structure
+import contact from '../assets/images/Contact.jpg'
 type ProfileType = 'recruiter' | 'developer' | 'stalker' | 'adventure';
 
 interface TopPicksRowProps {
