@@ -16,11 +16,12 @@ const ContactMe: React.FC = () => {
         <img src={profilePic} alt="Shubham Tewari" className="badge-avatar" />
         <div className="badge-content">
           <h3 className="badge-name">Shubham Tewari</h3>
+          <p className="badge-company">San Lak Services</p>
           <p className="badge-title">Full Stack Developer</p>
           <p className="badge-description">
           I am an experienced web developer with a strong focus on solution-driven collaboration. Proficient in crafting consumer-centric websites utilizing CSS, React, JavaScript, NodeJS, AWS, TypeScript, MongoDb, Go, NextJs. I have successfully created products catering to both desktop and mobile users.
           </p>
-          <p className="badge-company">San Lak Services</p>
+     
           <a
             href="https://www.linkedin.com/in/shubham-tewari-678818123/"
             target="_blank"
