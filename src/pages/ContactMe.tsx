@@ -6,11 +6,9 @@ import { ContactMe as IContactMe } from '../types';
 
 const ContactMe: React.FC = () => {
 
-  const [userData, setUserData] = useState<IContactMe>()
 
  
 
-  if (!userData) return <div>Loading...</div>;
 
   return (
     <div className="contact-container">
